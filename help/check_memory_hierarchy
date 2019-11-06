@@ -1,0 +1,40 @@
+path : /sys/devices/system/cpu/cpu0/cache/index0
+
+L1 cache :
+Total				4
+coherency_line_size		64B
+id				0
+level				1
+number_of_sets			64
+physical_line_partition		1
+shared_cpu_list			0
+shared_cpu_map			1
+size				32K
+type				Data
+ways_of_associativity		8
+
+L1 cache :
+Total				4
+coherency_line_size		64B
+id				0
+level				1
+number_of_sets			64
+physical_line_partition		1
+shared_cpu_list			0
+shared_cpu_map			1
+size				32K
+type				Instruction
+ways_of_associativity		8
+
+L2 cache :
+Total				2
+coherency_line_size		64B
+id				0
+level				2
+number_of_sets			4096
+physical_line_partition		1
+shared_cpu_list			0-1
+shared_cpu_map			3
+size				6144K
+type				Unified
+ways_of_associativity		24

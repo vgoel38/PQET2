@@ -1,0 +1,59 @@
+#cs, cr, ct, ci, co
+
+#find ct
+select * from title (in memory)
+et = 282
+tuples = 2528312
+ct = 0.00011153
+
+#find co
+select count(*) from title (in memory)
+et = 460
+tuples = 2528312
+co = 0.0000704
+
+#find ci
+select * from title where id>-1 (in memory)
+et = 1611
+tuples = 2528312
+ci = 0.00027727
+
+#find cs
+select * from title (on disk)
+et = 2682
+tuples = 2528312
+pages = 38513
+cs = 0.06964
+
+----------------------------------------------------------------------
+#find ct
+select * from cast_info (in memory)
+et = 1921
+tuples = 36244344
+ct = 0.000060699
+
+#find co
+select count(*) from cast_info (in memory)
+et = 3337
+tuples = 36244344
+co = 0.0000474558
+
+#find ci
+select * from cast_info where id>-1 (in memory)
+et = 3934
+tuples = 36244344
+ci = 0.0000138504
+
+#find cs
+select * from cast_info (on disk)
+et = 8975
+tuples = 36244344
+pages = 288333
+cs = 0.0519538
+
+#find cr
+select * from cast_info where id>-1 (on disk)
+et = 935173
+tuples = 36244344
+pages = rel:288333,index:99382, read=387360, hit=29754
+cr = 2.36413415

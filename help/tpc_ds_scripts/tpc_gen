@@ -1,0 +1,20 @@
+//Compile the code
+copy Makefie.suite to Makefile
+Edit Makefile and find the line containing “OS = “
+Read the comments and append your target OS. For example: “OS = LINUX”
+Run “make”
+
+
+//Generate .csv data files
+Run "dsdgen -h" for help
+//scale in gb, default parameter = |
+"./dsdgen -scale 10 -dir /tmp -delimiter <c>"
+//OR
+"./dsdgen –scale 100 –dir /tmp –parallel 4 –child 1 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 2 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 3 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 4 &"
+
+
+//generate queries
+Run "dsqgen -h" for help
+Add "define _END = "";" to ansi.pl
+"./dsqgen -template query1.tpl -directory ./../query_templates -scale 10 -output_dir /home/dsladmin/pqet/tpc-ds-kit/10gb-q/"
+

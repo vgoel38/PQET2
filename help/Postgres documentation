@@ -1,0 +1,2 @@
+1. Total cost of each operator = total time spent in an op and not the timestamp of when it ended.
+2. In each index leaf page, heap scan does not happen.

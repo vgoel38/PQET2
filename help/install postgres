@@ -1,0 +1,29 @@
+Download postgresql-11.4 source folder
+./configure --prefix=/home/dsladmin/pqet/postgres-11.4
+make world
+make check
+su
+make install-world
+copy postgresql-11.4 contents into postgres-11.4 and delete postgresql-11.4
+
+#Creation of database
+#postgres is a unix user here, not a db user
+adduser postgres
+mkdir /home/dsladmin/pqet/data
+chown postgres /home/dsladmin/pqet/data
+su - postgres
+/home/dsladmin/pqet/postgres-11.4/bin/initdb -D /home/dsladmin/pqet/data
+/home/dsladmin/pqet/postgres-11.4/bin/pg_ctl -D /home/dsladmin/pqet/data -l logfile start
+/home/dsladmin/pqet/postgres-11.4/bin/createdb tpc-ds-10
+
+#Download TPC-DS data files using tpc_gen script
+
+#Creating tables
+/home/dsladmin/pqet/postgres-11.4/bin/psql -f /home/dsladmin/Desktop/v2.11.0rc2/tools/tpcds.sql tpc-ds-10
+
+#Load data into DBMS
+#Note: default delimiter = |, default null = ||, change with DBMS' loader
+#Run data_load_1.sh from /home/dsladmin/pqet/tpc-ds-kit/10gb
+#Run data_load_2.sh from /home/dsladmin/pqet/tpc-ds-kit/10gb-temp
+#Delete 10gb folder
+#Rename 10gb-temp as 10gb

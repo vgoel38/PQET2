@@ -1,0 +1,31 @@
+cast_info : 36244344
+kind_type : 7
+movie_companies : 2609129
+movie_info : 14835720
+movie_info_idx : 1380035
+movie_keyword : 4523930
+title : 2528312
+
+
+ public | aka_name        | table | dsladmin
+ public | aka_title       | table | dsladmin
+ public | cast_info       | table | dsladmin
+ public | char_name       | table | dsladmin
+ public | comp_cast_type  | table | dsladmin
+ public | company_name    | table | dsladmin
+ public | company_type    | table | dsladmin
+ public | complete_cast   | table | dsladmin
+ public | info_type       | table | dsladmin
+ public | keyword         | table | dsladmin
+ public | kind_type       | table | dsladmin
+ public | link_type       | table | dsladmin
+ public | movie_companies | table | dsladmin
+ public | movie_info      | table | dsladmin
+ public | movie_info_idx  | table | dsladmin
+ public | movie_keyword   | table | dsladmin
+ public | movie_link      | table | dsladmin
+ public | name            | table | dsladmin
+ public | person_info     | table | dsladmin
+ public | role_type       | table | dsladmin
+ public | title           | table | dsladmin
+

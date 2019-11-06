@@ -1,0 +1,21 @@
+/look for processes on a port
+lsof -i :5432
+
+//look for running processes
+ps -af
+
+//kill a process
+kill -9 pid
+
+//take a snapshot
+shift + print screen
+
+//check disk usage
+sudo iotop
+iostat -y 2
+
+//perf
+perf stat -d -d -d -p pid
+
+//check main memory usage
+free -m -w -l

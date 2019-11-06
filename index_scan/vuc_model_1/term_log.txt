@@ -1,0 +1,1896 @@
+              total        used        free      shared  buff/cache   available
+Mem:       32853724     1782352    27814860     2916228     3256512    27692300
+Swap:      62498812         268    62498544
+waiting for server to shut down.... done
+server stopped
+waiting for server to start....2019-10-28 01:36:39.398 IST [22973] LOG:  too many background workers
+2019-10-28 01:36:39.398 IST [22973] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:39.398 IST [22973] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:39.398 IST [22973] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:39.507 IST [22973] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:39.736 IST [22974] LOG:  database system was shut down at 2019-10-28 01:36:39 IST
+2019-10-28 01:36:39.783 IST [22973] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14.000000
+numIndexTuples = 14.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.787775 numIndexTuples = 14.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.788294
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.792282
+indexStartupCost = 0.004506
+indexTotalCost = 1.792282
+indexSelectivity = 0.000000
+index_pages = 1.000000
+index_run_cost = 1.787775
+rel_tuples_fetched = 14.000000
+max_IO_cost = 25.017300 pages_fetched = 14.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.574725
+cpu_run_cost = 0.000742, cpu_per_tuple = 0.000053 tuples_fetched = 14.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781732    30410892      342220      661100    30271524
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:40.557 IST [22973] LOG:  received fast shutdown request
+.2019-10-28 01:36:40.583 IST [22973] LOG:  aborting any active transactions
+2019-10-28 01:36:40.583 IST [22975] LOG:  shutting down
+2019-10-28 01:36:40.792 IST [22973] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:40.927 IST [22993] LOG:  too many background workers
+2019-10-28 01:36:40.927 IST [22993] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:40.927 IST [22993] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:40.943 IST [22993] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:40.973 IST [22993] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:41.175 IST [22994] LOG:  database system was shut down at 2019-10-28 01:36:40 IST
+2019-10-28 01:36:41.221 IST [22993] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 43.000000
+numIndexTuples = 43.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.789484 numIndexTuples = 43.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.790003
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.793991
+indexStartupCost = 0.004506
+indexTotalCost = 1.793991
+indexSelectivity = 0.000001
+index_pages = 1.000000
+index_run_cost = 1.789484
+rel_tuples_fetched = 43.000000
+max_IO_cost = 76.838850 pages_fetched = 43.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.576434
+cpu_run_cost = 0.002279, cpu_per_tuple = 0.000053 tuples_fetched = 43.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780760    30413784      342220      659180    30272716
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:41.572 IST [22993] LOG:  received fast shutdown request
+.2019-10-28 01:36:41.598 IST [22993] LOG:  aborting any active transactions
+2019-10-28 01:36:41.598 IST [22995] LOG:  shutting down
+2019-10-28 01:36:41.797 IST [22993] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:41.919 IST [23013] LOG:  too many background workers
+2019-10-28 01:36:41.919 IST [23013] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:41.919 IST [23013] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:41.920 IST [23013] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:41.954 IST [23013] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:42.132 IST [23014] LOG:  database system was shut down at 2019-10-28 01:36:41 IST
+2019-10-28 01:36:42.190 IST [23013] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 100.000000
+numIndexTuples = 100.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.792844 numIndexTuples = 100.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.793362
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.797350
+indexStartupCost = 0.004506
+indexTotalCost = 1.797350
+indexSelectivity = 0.000003
+index_pages = 1.000000
+index_run_cost = 1.792844
+rel_tuples_fetched = 100.000000
+max_IO_cost = 178.695000 pages_fetched = 100.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.579794
+cpu_run_cost = 0.005300, cpu_per_tuple = 0.000053 tuples_fetched = 100.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781660    30413372      341940      658692    30271380
+Swap:      62498812         268    62498544
+waiting for server to shut down....2019-10-28 01:36:42.546 IST [23013] LOG:  received fast shutdown request
+2019-10-28 01:36:42.573 IST [23013] LOG:  aborting any active transactions
+2019-10-28 01:36:42.574 IST [23015] LOG:  shutting down
+2019-10-28 01:36:42.758 IST [23013] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:42.888 IST [23033] LOG:  too many background workers
+2019-10-28 01:36:42.888 IST [23033] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:42.888 IST [23033] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:42.889 IST [23033] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:42.917 IST [23033] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:43.078 IST [23034] LOG:  database system was shut down at 2019-10-28 01:36:42 IST
+2019-10-28 01:36:43.113 IST [23033] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 214.000000
+numIndexTuples = 214.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.799563 numIndexTuples = 214.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.800082
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.804070
+indexStartupCost = 0.004506
+indexTotalCost = 1.804070
+indexSelectivity = 0.000006
+index_pages = 1.000000
+index_run_cost = 1.799563
+rel_tuples_fetched = 214.000000
+max_IO_cost = 382.407300 pages_fetched = 214.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.814870 pages_fetched = 2.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.614433
+cpu_run_cost = 0.011342, cpu_per_tuple = 0.000053 tuples_fetched = 214.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780516    30414016      342068      659192    30271992
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:43.458 IST [23033] LOG:  received fast shutdown request
+.2019-10-28 01:36:43.485 IST [23033] LOG:  aborting any active transactions
+2019-10-28 01:36:43.486 IST [23035] LOG:  shutting down
+2019-10-28 01:36:43.692 IST [23033] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:43.812 IST [23053] LOG:  too many background workers
+2019-10-28 01:36:43.812 IST [23053] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:43.812 IST [23053] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:43.814 IST [23053] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:43.847 IST [23053] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:44.031 IST [23054] LOG:  database system was shut down at 2019-10-28 01:36:43 IST
+2019-10-28 01:36:44.071 IST [23053] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 443.000000
+numIndexTuples = 443.000000
+numIndexPages = 2.000000
+indexTotalCost = 3.573900 numIndexPages = 2.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 3.600010 numIndexTuples = 443.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 3.600529
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 3.604517
+indexStartupCost = 0.004506
+indexTotalCost = 3.604517
+indexSelectivity = 0.000012
+index_pages = 2.000000
+index_run_cost = 3.600010
+rel_tuples_fetched = 443.000000
+max_IO_cost = 791.618850 pages_fetched = 443.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.870709 pages_fetched = 4.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 5.470719
+cpu_run_cost = 0.023479, cpu_per_tuple = 0.000053 tuples_fetched = 443.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780104    30415008      341972      658612    30273432
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:44.332 IST [23053] LOG:  received fast shutdown request
+.2019-10-28 01:36:44.357 IST [23053] LOG:  aborting any active transactions
+2019-10-28 01:36:44.358 IST [23055] LOG:  shutting down
+2019-10-28 01:36:44.554 IST [23053] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:44.678 IST [23073] LOG:  too many background workers
+2019-10-28 01:36:44.678 IST [23073] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:44.678 IST [23073] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:44.680 IST [23073] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:44.724 IST [23073] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:44.925 IST [23074] LOG:  database system was shut down at 2019-10-28 01:36:44 IST
+2019-10-28 01:36:44.972 IST [23073] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 900.000000
+numIndexTuples = 900.000000
+numIndexPages = 3.000000
+indexTotalCost = 5.360850 numIndexPages = 3.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 5.413896 numIndexTuples = 900.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 5.414414
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 5.418402
+indexStartupCost = 0.004506
+indexTotalCost = 5.418402
+indexSelectivity = 0.000025
+index_pages = 3.000000
+index_run_cost = 5.413896
+rel_tuples_fetched = 900.000000
+max_IO_cost = 1606.468050 pages_fetched = 899.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.954468 pages_fetched = 7.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 7.368364
+cpu_run_cost = 0.047700, cpu_per_tuple = 0.000053 tuples_fetched = 900.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780636    30414048      341980      659040    30272080
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:45.376 IST [23073] LOG:  received fast shutdown request
+.2019-10-28 01:36:45.412 IST [23073] LOG:  aborting any active transactions
+2019-10-28 01:36:45.412 IST [23075] LOG:  shutting down
+2019-10-28 01:36:45.610 IST [23073] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:45.710 IST [23093] LOG:  too many background workers
+2019-10-28 01:36:45.710 IST [23093] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:45.710 IST [23093] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:45.713 IST [23093] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:45.745 IST [23093] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:45.940 IST [23094] LOG:  database system was shut down at 2019-10-28 01:36:45 IST
+2019-10-28 01:36:45.981 IST [23093] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 1814.000000
+numIndexTuples = 1814.000000
+numIndexPages = 5.000000
+indexTotalCost = 8.934750 numIndexPages = 5.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 9.041667 numIndexTuples = 1814.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 9.042186
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 9.046174
+indexStartupCost = 0.004506
+indexTotalCost = 9.046174
+indexSelectivity = 0.000050
+index_pages = 5.000000
+index_run_cost = 9.041667
+rel_tuples_fetched = 1814.000000
+max_IO_cost = 3230.805600 pages_fetched = 1808.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2.121985 pages_fetched = 13.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 11.163652
+cpu_run_cost = 0.096142, cpu_per_tuple = 0.000053 tuples_fetched = 1814.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780924    30413368      342264      659432    30271916
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:46.294 IST [23093] LOG:  received fast shutdown request
+.2019-10-28 01:36:46.324 IST [23093] LOG:  aborting any active transactions
+2019-10-28 01:36:46.325 IST [23095] LOG:  shutting down
+2019-10-28 01:36:46.525 IST [23093] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:46.651 IST [23113] LOG:  too many background workers
+2019-10-28 01:36:46.651 IST [23113] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:46.651 IST [23113] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:46.653 IST [23113] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:46.691 IST [23113] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:46.875 IST [23114] LOG:  database system was shut down at 2019-10-28 01:36:46 IST
+2019-10-28 01:36:46.916 IST [23113] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 3643.000000
+numIndexTuples = 3643.000000
+numIndexPages = 10.000000
+indexTotalCost = 17.869500 numIndexPages = 10.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 18.084218 numIndexTuples = 3643.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 18.084737
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 18.088725
+indexStartupCost = 0.004506
+indexTotalCost = 18.088725
+indexSelectivity = 0.000100
+index_pages = 10.000000
+index_run_cost = 18.084218
+rel_tuples_fetched = 3643.000000
+max_IO_cost = 6463.398150 pages_fetched = 3617.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2.484940 pages_fetched = 26.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 20.569158
+cpu_run_cost = 0.193079, cpu_per_tuple = 0.000053 tuples_fetched = 3643.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781692    30412964      342100      659068    30270496
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:47.293 IST [23113] LOG:  received fast shutdown request
+.2019-10-28 01:36:47.321 IST [23113] LOG:  aborting any active transactions
+2019-10-28 01:36:47.322 IST [23115] LOG:  shutting down
+2019-10-28 01:36:47.534 IST [23113] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:47.631 IST [23133] LOG:  too many background workers
+2019-10-28 01:36:47.631 IST [23133] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:47.631 IST [23133] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:47.632 IST [23133] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:47.660 IST [23133] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:47.856 IST [23134] LOG:  database system was shut down at 2019-10-28 01:36:47 IST
+2019-10-28 01:36:47.885 IST [23133] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 7300.000000
+numIndexTuples = 7300.000000
+numIndexPages = 21.000000
+indexTotalCost = 37.525950 numIndexPages = 21.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 37.956212 numIndexTuples = 7300.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 37.956730
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 37.960718
+indexStartupCost = 0.004506
+indexTotalCost = 37.960718
+indexSelectivity = 0.000201
+index_pages = 21.000000
+index_run_cost = 37.956212
+rel_tuples_fetched = 7300.000000
+max_IO_cost = 12860.679150 pages_fetched = 7197.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 3.182930 pages_fetched = 51.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 41.139142
+cpu_run_cost = 0.386900, cpu_per_tuple = 0.000053 tuples_fetched = 7300.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781444    30411768      342852      660512    30271436
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:48.146 IST [23133] LOG:  received fast shutdown request
+.2019-10-28 01:36:48.171 IST [23133] LOG:  aborting any active transactions
+2019-10-28 01:36:48.171 IST [23135] LOG:  shutting down
+2019-10-28 01:36:48.370 IST [23133] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:48.480 IST [23153] LOG:  too many background workers
+2019-10-28 01:36:48.480 IST [23153] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:48.480 IST [23153] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:48.481 IST [23153] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:48.509 IST [23153] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:48.722 IST [23154] LOG:  database system was shut down at 2019-10-28 01:36:48 IST
+2019-10-28 01:36:48.746 IST [23153] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14614.000000
+numIndexTuples = 14614.000000
+numIndexPages = 41.000000
+indexTotalCost = 73.264950 numIndexPages = 41.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 74.126299 numIndexTuples = 14614.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 74.126818
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 74.130806
+indexStartupCost = 0.004506
+indexTotalCost = 74.130806
+indexSelectivity = 0.000403
+index_pages = 41.000000
+index_run_cost = 74.126299
+rel_tuples_fetched = 14614.000000
+max_IO_cost = 25381.837800 pages_fetched = 14204.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 4.606830 pages_fetched = 102.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 78.733129
+cpu_run_cost = 0.774542, cpu_per_tuple = 0.000053 tuples_fetched = 14614.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780704    30410636      343684      662384    30271192
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:49.067 IST [23153] LOG:  received fast shutdown request
+.2019-10-28 01:36:49.094 IST [23153] LOG:  aborting any active transactions
+2019-10-28 01:36:49.095 IST [23155] LOG:  shutting down
+2019-10-28 01:36:49.323 IST [23153] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:49.415 IST [23173] LOG:  too many background workers
+2019-10-28 01:36:49.415 IST [23173] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:49.415 IST [23173] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:49.423 IST [23173] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:49.461 IST [23173] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:49.640 IST [23174] LOG:  database system was shut down at 2019-10-28 01:36:49 IST
+2019-10-28 01:36:49.681 IST [23173] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 29243.000000
+numIndexTuples = 29243.000000
+numIndexPages = 81.000000
+indexTotalCost = 144.742950 numIndexPages = 81.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 146.466532 numIndexTuples = 29243.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146.467051
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146.471039
+indexStartupCost = 0.004506
+indexTotalCost = 146.471039
+indexSelectivity = 0.000807
+index_pages = 81.000000
+index_run_cost = 146.466532
+rel_tuples_fetched = 29243.000000
+max_IO_cost = 49398.445800 pages_fetched = 27644.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 7.454629 pages_fetched = 204.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 153.921161
+cpu_run_cost = 1.549879, cpu_per_tuple = 0.000053 tuples_fetched = 29243.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781108    30408724      344596      663892    30269848
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:50.010 IST [23173] LOG:  received fast shutdown request
+.2019-10-28 01:36:50.029 IST [23173] LOG:  aborting any active transactions
+2019-10-28 01:36:50.030 IST [23175] LOG:  shutting down
+2019-10-28 01:36:50.224 IST [23173] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:50.356 IST [23193] LOG:  too many background workers
+2019-10-28 01:36:50.356 IST [23193] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:50.356 IST [23193] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:50.358 IST [23193] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:50.391 IST [23193] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:50.563 IST [23194] LOG:  database system was shut down at 2019-10-28 01:36:50 IST
+2019-10-28 01:36:50.593 IST [23193] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 58499.000000
+numIndexTuples = 58499.000000
+numIndexPages = 161.000000
+indexTotalCost = 287.698950 numIndexPages = 161.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 291.146881 numIndexTuples = 58499.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 291.147400
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 291.151387
+indexStartupCost = 0.004506
+indexTotalCost = 291.151387
+indexSelectivity = 0.001614
+index_pages = 161.000000
+index_run_cost = 291.146881
+rel_tuples_fetched = 58499.000000
+max_IO_cost = 93691.575450 pages_fetched = 52431.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 13.150227 pages_fetched = 408.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 304.297108
+cpu_run_cost = 3.100447, cpu_per_tuple = 0.000053 tuples_fetched = 58499.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780188    30404376      347204      669160    30267836
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:50.894 IST [23193] LOG:  received fast shutdown request
+.2019-10-28 01:36:50.924 IST [23193] LOG:  aborting any active transactions
+2019-10-28 01:36:50.925 IST [23195] LOG:  shutting down
+2019-10-28 01:36:51.126 IST [23193] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:51.234 IST [23213] LOG:  too many background workers
+2019-10-28 01:36:51.234 IST [23213] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:51.234 IST [23213] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:51.242 IST [23213] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:51.274 IST [23213] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:51.458 IST [23214] LOG:  database system was shut down at 2019-10-28 01:36:51 IST
+2019-10-28 01:36:51.493 IST [23213] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 126267.000000
+numIndexTuples = 126267.000000
+numIndexPages = 347.000000
+indexTotalCost = 620.071650 numIndexPages = 347.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 627.513827 numIndexTuples = 126267.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 627.514345
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 627.518333
+indexStartupCost = 0.004506
+indexTotalCost = 627.518333
+indexSelectivity = 0.003483
+index_pages = 347.000000
+index_run_cost = 627.513827
+rel_tuples_fetched = 126267.000000
+max_IO_cost = 180535.558500 pages_fetched = 101030.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 26.356198 pages_fetched = 881.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 653.870025
+cpu_run_cost = 6.692151, cpu_per_tuple = 0.000053 tuples_fetched = 126267.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780544    30396068      351296      677112    30263300
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:52.139 IST [23213] LOG:  received fast shutdown request
+.2019-10-28 01:36:52.167 IST [23213] LOG:  aborting any active transactions
+2019-10-28 01:36:52.168 IST [23215] LOG:  shutting down
+2019-10-28 01:36:52.381 IST [23213] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:52.511 IST [23233] LOG:  too many background workers
+2019-10-28 01:36:52.511 IST [23233] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:52.511 IST [23233] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:52.537 IST [23233] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:52.575 IST [23233] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:52.759 IST [23234] LOG:  database system was shut down at 2019-10-28 01:36:52 IST
+2019-10-28 01:36:52.799 IST [23233] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 228810.000000
+numIndexTuples = 228810.000000
+numIndexPages = 628.000000
+indexTotalCost = 1122.204600 numIndexPages = 628.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1135.690661 numIndexTuples = 228810.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1135.691180
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1135.695168
+indexStartupCost = 0.004506
+indexTotalCost = 1135.695168
+indexSelectivity = 0.006311
+index_pages = 628.000000
+index_run_cost = 1135.690661
+rel_tuples_fetched = 228810.000000
+max_IO_cost = 281460.707550 pages_fetched = 157509.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 46.290792 pages_fetched = 1595.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 1181.981454
+cpu_run_cost = 12.126930, cpu_per_tuple = 0.000053 tuples_fetched = 228810.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780916    30378348      359676      694460    30255044
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:54.030 IST [23233] LOG:  received fast shutdown request
+.2019-10-28 01:36:54.062 IST [23233] LOG:  aborting any active transactions
+2019-10-28 01:36:54.063 IST [23235] LOG:  shutting down
+2019-10-28 01:36:54.289 IST [23233] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:54.406 IST [23253] LOG:  too many background workers
+2019-10-28 01:36:54.406 IST [23253] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:54.406 IST [23253] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:54.417 IST [23253] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:54.452 IST [23253] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:54.619 IST [23254] LOG:  database system was shut down at 2019-10-28 01:36:54 IST
+2019-10-28 01:36:54.660 IST [23253] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 453689.000000
+numIndexTuples = 453689.000000
+numIndexPages = 1244.000000
+indexTotalCost = 2222.965800 numIndexPages = 1244.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 2249.706230 numIndexTuples = 453689.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 2249.706748
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 2249.710736
+indexStartupCost = 0.004506
+indexTotalCost = 2249.710736
+indexSelectivity = 0.012514
+index_pages = 1244.000000
+index_run_cost = 2249.706230
+rel_tuples_fetched = 453689.000000
+max_IO_cost = 427238.301600 pages_fetched = 239088.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 90.068725 pages_fetched = 3163.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 2339.774955
+cpu_run_cost = 24.045517, cpu_per_tuple = 0.000053 tuples_fetched = 453689.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779948    30344660      377180      729116    30238568
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:56.104 IST [23253] LOG:  received fast shutdown request
+.2019-10-28 01:36:56.134 IST [23253] LOG:  aborting any active transactions
+2019-10-28 01:36:56.135 IST [23255] LOG:  shutting down
+2019-10-28 01:36:56.374 IST [23253] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:56.490 IST [23275] LOG:  too many background workers
+2019-10-28 01:36:56.490 IST [23275] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:56.490 IST [23275] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:56.497 IST [23275] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:56.530 IST [23275] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:56.714 IST [23276] LOG:  database system was shut down at 2019-10-28 01:36:56 IST
+2019-10-28 01:36:56.755 IST [23275] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 923872.000000
+numIndexTuples = 923872.000000
+numIndexPages = 2533.000000
+indexTotalCost = 4526.344350 numIndexPages = 2533.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 4580.797366 numIndexTuples = 923872.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 4580.797884
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 4580.801872
+indexStartupCost = 0.004506
+indexTotalCost = 4580.801872
+indexSelectivity = 0.025482
+index_pages = 2533.000000
+index_run_cost = 4580.797366
+rel_tuples_fetched = 923872.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 181.589174 pages_fetched = 6441.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 4762.386540
+cpu_run_cost = 48.965216, cpu_per_tuple = 0.000053 tuples_fetched = 923872.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1782392    30273460      411576      797872    30201096
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:36:58.453 IST [23275] LOG:  received fast shutdown request
+.2019-10-28 01:36:58.480 IST [23275] LOG:  aborting any active transactions
+2019-10-28 01:36:58.481 IST [23277] LOG:  shutting down
+2019-10-28 01:36:58.701 IST [23275] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:36:58.836 IST [23295] LOG:  too many background workers
+2019-10-28 01:36:58.836 IST [23295] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:36:58.836 IST [23295] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:36:58.852 IST [23295] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:36:58.893 IST [23295] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:36:59.079 IST [23296] LOG:  database system was shut down at 2019-10-28 01:36:58 IST
+2019-10-28 01:36:59.119 IST [23295] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 1749221.000000
+numIndexTuples = 1749221.000000
+numIndexPages = 4795.000000
+indexTotalCost = 8568.425250 numIndexPages = 4795.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 8671.524336 numIndexTuples = 1749221.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 8671.524854
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 8671.528842
+indexStartupCost = 0.004506
+indexTotalCost = 8671.528842
+indexSelectivity = 0.048247
+index_pages = 4795.000000
+index_run_cost = 8671.524336
+rel_tuples_fetched = 1749221.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 342.210633 pages_fetched = 12194.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 9013.734969
+cpu_run_cost = 92.708713, cpu_per_tuple = 0.000053 tuples_fetched = 1749221.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780580    30141400      478636      931744    30136304
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:01.156 IST [23295] LOG:  received fast shutdown request
+.2019-10-28 01:37:01.182 IST [23295] LOG:  aborting any active transactions
+2019-10-28 01:37:01.183 IST [23297] LOG:  shutting down
+2019-10-28 01:37:01.472 IST [23295] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:01.658 IST [23315] LOG:  too many background workers
+2019-10-28 01:37:01.658 IST [23315] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:01.658 IST [23315] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:01.669 IST [23315] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:01.710 IST [23315] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:01.905 IST [23316] LOG:  database system was shut down at 2019-10-28 01:37:01 IST
+2019-10-28 01:37:01.946 IST [23315] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 3477966.000000
+numIndexTuples = 3477966.000000
+numIndexPages = 9534.000000
+indexTotalCost = 17036.781300 numIndexPages = 9534.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 17241.772616 numIndexTuples = 3477966.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 17241.773134
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 17241.777122
+indexStartupCost = 0.004506
+indexTotalCost = 17241.777122
+indexSelectivity = 0.095929
+index_pages = 9534.000000
+index_run_cost = 17241.772616
+rel_tuples_fetched = 3477966.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 678.641813 pages_fetched = 24244.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 17920.414429
+cpu_run_cost = 184.332198, cpu_per_tuple = 0.000053 tuples_fetched = 3477966.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780808    29870052      613508     1202864    30001288
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:05.013 IST [23315] LOG:  received fast shutdown request
+.2019-10-28 01:37:05.054 IST [23315] LOG:  aborting any active transactions
+2019-10-28 01:37:05.055 IST [23317] LOG:  shutting down
+2019-10-28 01:37:05.337 IST [23315] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:05.501 IST [23336] LOG:  too many background workers
+2019-10-28 01:37:05.501 IST [23336] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:05.501 IST [23336] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:05.514 IST [23336] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:05.559 IST [23336] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:05.748 IST [23337] LOG:  database system was shut down at 2019-10-28 01:37:05 IST
+2019-10-28 01:37:05.789 IST [23336] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 7053724.000000
+numIndexTuples = 7053724.000000
+numIndexPages = 19336.000000
+indexTotalCost = 34552.465200 numIndexPages = 19336.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 34968.211693 numIndexTuples = 7053724.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 34968.212211
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 34968.216199
+indexStartupCost = 0.004506
+indexTotalCost = 34968.216199
+indexSelectivity = 0.194555
+index_pages = 19336.000000
+index_run_cost = 34968.211693
+rel_tuples_fetched = 7053724.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1374.565762 pages_fetched = 49170.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 36342.777455
+cpu_run_cost = 373.847372, cpu_per_tuple = 0.000053 tuples_fetched = 7053724.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1781452    29309912      892460     1762360    29721452
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:10.699 IST [23336] LOG:  received fast shutdown request
+.2019-10-28 01:37:10.721 IST [23336] LOG:  aborting any active transactions
+2019-10-28 01:37:10.722 IST [23338] LOG:  shutting down
+2019-10-28 01:37:10.962 IST [23336] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:11.076 IST [23356] LOG:  too many background workers
+2019-10-28 01:37:11.076 IST [23356] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:11.076 IST [23356] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:11.092 IST [23356] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:11.128 IST [23356] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:11.312 IST [23357] LOG:  database system was shut down at 2019-10-28 01:37:10 IST
+2019-10-28 01:37:11.347 IST [23356] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14298573.000000
+numIndexTuples = 14298573.000000
+numIndexPages = 39195.000000
+indexTotalCost = 70039.505250 numIndexPages = 39195.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 70882.263143 numIndexTuples = 14298573.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 70882.263661
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 70882.267649
+indexStartupCost = 0.004506
+indexTotalCost = 70882.267649
+indexSelectivity = 0.394382
+index_pages = 39195.000000
+index_run_cost = 70882.263143
+rel_tuples_fetched = 14298573.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2784.561402 pages_fetched = 99672.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 73666.824544
+cpu_run_cost = 757.824369, cpu_per_tuple = 0.000053 tuples_fetched = 14298573.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1782372    28150616     1469860     2920736    29141936
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:19.842 IST [23356] LOG:  received fast shutdown request
+.2019-10-28 01:37:19.868 IST [23356] LOG:  aborting any active transactions
+2019-10-28 01:37:19.870 IST [23358] LOG:  shutting down
+2019-10-28 01:37:20.203 IST [23356] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:20.327 IST [23376] LOG:  too many background workers
+2019-10-28 01:37:20.327 IST [23376] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:20.327 IST [23376] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:20.355 IST [23376] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:20.395 IST [23376] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:20.574 IST [23377] LOG:  database system was shut down at 2019-10-28 01:37:20 IST
+2019-10-28 01:37:20.615 IST [23376] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 29485700.000000
+numIndexTuples = 29485700.000000
+numIndexPages = 80825.000000
+indexTotalCost = 144430.233750 numIndexPages = 80825.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 146168.120908 numIndexTuples = 29485700.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146168.121426
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146168.125414
+indexStartupCost = 0.004506
+indexTotalCost = 146168.125414
+indexSelectivity = 0.813272
+index_pages = 80825.000000
+index_run_cost = 146168.120908
+rel_tuples_fetched = 29485700.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 5740.269856 pages_fetched = 205537.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 151908.390764
+cpu_run_cost = 1562.742100, cpu_per_tuple = 0.000053 tuples_fetched = 29485700.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1784768    25802348     2639620     5266608    27967168
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:36.174 IST [23376] LOG:  received fast shutdown request
+.2019-10-28 01:37:36.198 IST [23376] LOG:  aborting any active transactions
+2019-10-28 01:37:36.201 IST [23378] LOG:  shutting down
+2019-10-28 01:37:36.636 IST [23376] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:36.754 IST [23396] LOG:  too many background workers
+2019-10-28 01:37:36.754 IST [23396] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:36.754 IST [23396] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:36.767 IST [23396] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:36.817 IST [23396] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:36.995 IST [23397] LOG:  database system was shut down at 2019-10-28 01:37:36 IST
+2019-10-28 01:37:37.036 IST [23396] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 33060509.000000
+numIndexTuples = 33060509.000000
+numIndexPages = 90624.000000
+indexTotalCost = 161940.556800 numIndexPages = 90624.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 163889.143200 numIndexTuples = 33060509.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 163889.143719
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 163889.147707
+indexStartupCost = 0.004506
+indexTotalCost = 163889.147707
+indexSelectivity = 0.911872
+index_pages = 90624.000000
+index_run_cost = 163889.143200
+rel_tuples_fetched = 33060509.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 6435.998368 pages_fetched = 230456.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 170325.141568
+cpu_run_cost = 1752.206977, cpu_per_tuple = 0.000053 tuples_fetched = 33060509.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1793232    25240328     2915220     5820164    27682208
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:54.004 IST [23396] LOG:  received fast shutdown request
+.2019-10-28 01:37:54.025 IST [23396] LOG:  aborting any active transactions
+2019-10-28 01:37:54.027 IST [23398] LOG:  shutting down
+2019-10-28 01:37:54.431 IST [23396] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:54.586 IST [23419] LOG:  too many background workers
+2019-10-28 01:37:54.586 IST [23419] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:54.586 IST [23419] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:54.601 IST [23419] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:54.638 IST [23419] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:54.828 IST [23420] LOG:  database system was shut down at 2019-10-28 01:37:54 IST
+2019-10-28 01:37:54.868 IST [23419] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14.000000
+numIndexTuples = 14.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.787775 numIndexTuples = 14.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.788294
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.792282
+indexStartupCost = 0.004506
+indexTotalCost = 1.792282
+indexSelectivity = 0.000000
+index_pages = 1.000000
+index_run_cost = 1.787775
+rel_tuples_fetched = 14.000000
+max_IO_cost = 25.017300 pages_fetched = 14.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.574725
+cpu_run_cost = 0.000742, cpu_per_tuple = 0.000053 tuples_fetched = 14.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1778116    30416312      342112      659296    30275268
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:55.619 IST [23419] LOG:  received fast shutdown request
+.2019-10-28 01:37:55.640 IST [23419] LOG:  aborting any active transactions
+2019-10-28 01:37:55.641 IST [23421] LOG:  shutting down
+2019-10-28 01:37:55.842 IST [23419] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:55.955 IST [23441] LOG:  too many background workers
+2019-10-28 01:37:55.955 IST [23441] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:55.955 IST [23441] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:55.956 IST [23441] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:55.984 IST [23441] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:56.145 IST [23442] LOG:  database system was shut down at 2019-10-28 01:37:55 IST
+2019-10-28 01:37:56.180 IST [23441] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 43.000000
+numIndexTuples = 43.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.789484 numIndexTuples = 43.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.790003
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.793991
+indexStartupCost = 0.004506
+indexTotalCost = 1.793991
+indexSelectivity = 0.000001
+index_pages = 1.000000
+index_run_cost = 1.789484
+rel_tuples_fetched = 43.000000
+max_IO_cost = 76.838850 pages_fetched = 43.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.576434
+cpu_run_cost = 0.002279, cpu_per_tuple = 0.000053 tuples_fetched = 43.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780180    30415212      341828      658332    30273108
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:56.475 IST [23441] LOG:  received fast shutdown request
+.2019-10-28 01:37:56.500 IST [23441] LOG:  aborting any active transactions
+2019-10-28 01:37:56.501 IST [23443] LOG:  shutting down
+2019-10-28 01:37:56.689 IST [23441] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:56.822 IST [23461] LOG:  too many background workers
+2019-10-28 01:37:56.822 IST [23461] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:56.822 IST [23461] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:56.824 IST [23461] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:56.862 IST [23461] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:57.063 IST [23462] LOG:  database system was shut down at 2019-10-28 01:37:56 IST
+2019-10-28 01:37:57.093 IST [23461] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 100.000000
+numIndexTuples = 100.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.792844 numIndexTuples = 100.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.793362
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.797350
+indexStartupCost = 0.004506
+indexTotalCost = 1.797350
+indexSelectivity = 0.000003
+index_pages = 1.000000
+index_run_cost = 1.792844
+rel_tuples_fetched = 100.000000
+max_IO_cost = 178.695000 pages_fetched = 100.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.786950 pages_fetched = 1.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.579794
+cpu_run_cost = 0.005300, cpu_per_tuple = 0.000053 tuples_fetched = 100.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780616    30414336      342228      658772    30272712
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:57.500 IST [23461] LOG:  received fast shutdown request
+.2019-10-28 01:37:57.532 IST [23461] LOG:  aborting any active transactions
+2019-10-28 01:37:57.533 IST [23463] LOG:  shutting down
+2019-10-28 01:37:57.721 IST [23461] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:57.837 IST [23481] LOG:  too many background workers
+2019-10-28 01:37:57.837 IST [23481] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:57.837 IST [23481] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:57.843 IST [23481] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:57.877 IST [23481] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:58.061 IST [23482] LOG:  database system was shut down at 2019-10-28 01:37:57 IST
+2019-10-28 01:37:58.084 IST [23481] LOG:  database system is ready to accept connections
+ done
+server started
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.58 rows=14 width=42) (actual time=0.006..0.007 rows=4 loops=1)',), ('  Index Cond: (movie_id < 2)',), ('  Buffers: shared hit=5',), ('Planning Time: 171.640 ms',), ('Execution Time: 0.367 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.58 rows=43 width=42) (actual time=0.006..0.014 rows=61 loops=1)',), ('  Index Cond: (movie_id < 4)',), ('  Buffers: shared hit=5',), ('Planning Time: 7.438 ms',), ('Execution Time: 0.332 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.59 rows=100 width=42) (actual time=0.009..0.057 rows=244 loops=1)',), ('  Index Cond: (movie_id < 8)',), ('  Buffers: shared hit=5 read=1',), ('Planning Time: 7.486 ms',), ('Execution Time: 0.382 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.63 rows=214 width=42) (actual time=0.010..0.228 rows=391 loops=1)',), ('  Index Cond: (movie_id < 16)',), ('  Buffers: shared hit=5 read=4',), ('Planning Time: 7.448 ms',), ('Execution Time: 0.553 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..5.50 rows=443 width=42) (actual time=0.011..0.237 rows=486 loops=1)',), ('  Index Cond: (movie_id < 32)',), ('  Buffers: shared hit=5 read=4',), ('Planning Time: 5.718 ms',), ('Execution Time: 0.567 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..7.42 rows=900 width=42) (actual time=0.011..0.434 rows=1222 loops=1)',), ('  Index Cond: (movie_id < 64)',), ('  Buffers: shared hit=5 read=12',), ('Planning Time: 7.398 ms',), ('Execution Time: 0.783 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..11.26 rows=1814 width=42) (actual time=0.011..0.519 rows=1650 loops=1)',), ('  Index Cond: (movie_id < 128)',), ('  Buffers: shared hit=5 read=16',), ('Planning Time: 7.338 ms',), ('Execution Time: 0.875 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..20.77 rows=3643 width=42) (actual time=0.011..0.838 rows=2320 loops=1)',), ('  Index Cond: (movie_id < 256)',), ('  Buffers: shared hit=5 read=23',), ('Planning Time: 7.275 ms',), ('Execution Time: 1.234 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..41.53 rows=7300 width=42) (actual time=0.012..11.103 rows=8082 loops=1)',), ('  Index Cond: (movie_id < 512)',), ('  Buffers: shared hit=5 read=79',), ('Planning Time: 7.430 ms',), ('Execution Time: 11.750 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..79.51 rows=14614 width=42) (actual time=0.011..13.510 rows=18479 loops=1)',), ('  Index Cond: (movie_id < 1024)',), ('  Buffers: shared hit=5 read=187',), ('Planning Time: 16.446 ms',), ('Execution Time: 14.570 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..155.48 rows=29243 width=42) (actual time=0.010..22.139 rows=31590 loops=1)',), ('  Index Cond: (movie_id < 2048)',), ('  Buffers: shared hit=5 read=321',), ('Planning Time: 7.290 ms',), ('Execution Time: 23.554 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..307.40 rows=58499 width=42) (actual time=0.010..18.369 rows=61548 loops=1)',), ('  Index Cond: (movie_id < 4096)',), ('  Buffers: shared hit=5 read=623',), ('Planning Time: 7.329 ms',), ('Execution Time: 20.864 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..660.57 rows=126267 width=42) (actual time=0.567..34.735 rows=117510 loops=1)',), ('  Index Cond: (movie_id < 8192)',), ('  Buffers: shared read=1159',), ('Planning Time: 6.349 ms',), ('Execution Time: 39.458 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..1194.11 rows=228810 width=42) (actual time=14.568..200.334 rows=219036 loops=1)',), ('  Index Cond: (movie_id < 16384)',), ('  Buffers: shared read=2187',), ('Planning Time: 131.905 ms',), ('Execution Time: 209.218 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..2363.82 rows=453689 width=42) (actual time=14.579..302.110 rows=446865 loops=1)',), ('  Index Cond: (movie_id < 32768)',), ('  Buffers: shared read=4376',), ('Planning Time: 108.920 ms',), ('Execution Time: 317.528 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..4811.36 rows=923872 width=42) (actual time=31.645..530.236 rows=887354 loops=1)',), ('  Index Cond: (movie_id < 65536)',), ('  Buffers: shared read=8676',), ('Planning Time: 131.782 ms',), ('Execution Time: 559.713 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..9106.45 rows=1749221 width=42) (actual time=14.593..830.691 rows=1741294 loops=1)',), ('  Index Cond: (movie_id < 131072)',), ('  Buffers: shared read=17057',), ('Planning Time: 108.960 ms',), ('Execution Time: 889.905 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..18104.75 rows=3477966 width=42) (actual time=14.486..1690.328 rows=3452120 loops=1)',), ('  Index Cond: (movie_id < 262144)',), ('  Buffers: shared read=33916',), ('Planning Time: 131.850 ms',), ('Execution Time: 1802.706 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..36716.63 rows=7053724 width=42) (actual time=14.616..3466.627 rows=7026699 loops=1)',), ('  Index Cond: (movie_id < 524288)',), ('  Buffers: shared read=68785',), ('Planning Time: 143.189 ms',), ('Execution Time: 3724.038 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..74424.65 rows=14298573 width=42) (actual time=14.637..6808.256 rows=14372215 loops=1)',), ('  Index Cond: (movie_id < 1048576)',), ('  Buffers: shared read=140960',), ('Planning Time: 131.689 ms',), ('Execution Time: 7276.390 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..153471.14 rows=29485700 width=42) (actual time=14.584..13255.011 rows=29474934 loops=1)',), ('  Index Cond: (movie_id < 2097152)',), ('  Buffers: shared read=287180',), ('Planning Time: 131.777 ms',), ('Execution Time: 14196.317 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..172077.35 rows=33060509 width=42) (actual time=14.641..14451.014 rows=33103643 loops=1)',), ('  Index Cond: (movie_id < 2331602)',), ('  Buffers: shared read=321626',), ('Planning Time: 131.852 ms',), ('Execution Time: 15500.285 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.58 rows=14 width=42) (actual time=0.006..0.007 rows=4 loops=1)',), ('  Index Cond: (movie_id < 2)',), ('  Buffers: shared hit=5',), ('Planning Time: 160.361 ms',), ('Execution Time: 0.371 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.58 rows=43 width=42) (actual time=0.007..0.014 rows=61 loops=1)',), ('  Index Cond: (movie_id < 4)',), ('  Buffers: shared hit=5',), ('Planning Time: 13.707 ms',), ('Execution Time: 0.328 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.59 rows=100 width=42) (actual time=0.010..0.169 rows=244 loops=1)',), ('  Index Cond: (movie_id < 8)',), ('  Buffers: shared hit=5 read=1',), ('Planning Time: 6.174 ms',), ('Execution Time: 0.489 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..3.63 rows=214 width=42) (actual time=0.011..0.225 rows=391 loops=1)',), ('  Index Cond: (movie_id < 16)',), ('  Buffers: shared hit=5 read=4',), ('Planning Time: 7.552 ms',), ('Execution Time: 0.508 ms',)]numIndexTuples = 214.000000
+numIndexTuples = 214.000000
+numIndexPages = 1.000000
+indexTotalCost = 1.786950 numIndexPages = 1.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1.799563 numIndexTuples = 214.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.800082
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1.804070
+indexStartupCost = 0.004506
+indexTotalCost = 1.804070
+indexSelectivity = 0.000006
+index_pages = 1.000000
+index_run_cost = 1.799563
+rel_tuples_fetched = 214.000000
+max_IO_cost = 382.407300 pages_fetched = 214.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.814870 pages_fetched = 2.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 3.614433
+cpu_run_cost = 0.011342, cpu_per_tuple = 0.000053 tuples_fetched = 214.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1778368    30416448      342164      658908    30274468
+Swap:      62498812         268    62498544
+waiting for server to shut down....2019-10-28 01:37:58.360 IST [23481] LOG:  received fast shutdown request
+2019-10-28 01:37:58.376 IST [23481] LOG:  aborting any active transactions
+2019-10-28 01:37:58.376 IST [23483] LOG:  shutting down
+2019-10-28 01:37:58.571 IST [23481] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:58.697 IST [23501] LOG:  too many background workers
+2019-10-28 01:37:58.697 IST [23501] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:58.697 IST [23501] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:58.700 IST [23501] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:58.726 IST [23501] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:58.905 IST [23502] LOG:  database system was shut down at 2019-10-28 01:37:58 IST
+2019-10-28 01:37:58.940 IST [23501] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 443.000000
+numIndexTuples = 443.000000
+numIndexPages = 2.000000
+indexTotalCost = 3.573900 numIndexPages = 2.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 3.600010 numIndexTuples = 443.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 3.600529
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 3.604517
+indexStartupCost = 0.004506
+indexTotalCost = 3.604517
+indexSelectivity = 0.000012
+index_pages = 2.000000
+index_run_cost = 3.600010
+rel_tuples_fetched = 443.000000
+max_IO_cost = 791.618850 pages_fetched = 443.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.870709 pages_fetched = 4.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 5.470719
+cpu_run_cost = 0.023479, cpu_per_tuple = 0.000053 tuples_fetched = 443.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779168    30415260      342220      659296    30273468
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:37:59.207 IST [23501] LOG:  received fast shutdown request
+.2019-10-28 01:37:59.231 IST [23501] LOG:  aborting any active transactions
+2019-10-28 01:37:59.231 IST [23503] LOG:  shutting down
+2019-10-28 01:37:59.441 IST [23501] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:37:59.546 IST [23521] LOG:  too many background workers
+2019-10-28 01:37:59.546 IST [23521] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:37:59.546 IST [23521] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:37:59.547 IST [23521] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:37:59.609 IST [23521] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:37:59.845 IST [23522] LOG:  database system was shut down at 2019-10-28 01:37:59 IST
+2019-10-28 01:37:59.874 IST [23521] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 900.000000
+numIndexTuples = 900.000000
+numIndexPages = 3.000000
+indexTotalCost = 5.360850 numIndexPages = 3.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 5.413896 numIndexTuples = 900.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 5.414414
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 5.418402
+indexStartupCost = 0.004506
+indexTotalCost = 5.418402
+indexSelectivity = 0.000025
+index_pages = 3.000000
+index_run_cost = 5.413896
+rel_tuples_fetched = 900.000000
+max_IO_cost = 1606.468050 pages_fetched = 899.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1.954468 pages_fetched = 7.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 7.368364
+cpu_run_cost = 0.047700, cpu_per_tuple = 0.000053 tuples_fetched = 900.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779416    30415060      342292      659248    30273976
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:00.184 IST [23521] LOG:  received fast shutdown request
+.2019-10-28 01:38:00.211 IST [23521] LOG:  aborting any active transactions
+2019-10-28 01:38:00.212 IST [23523] LOG:  shutting down
+2019-10-28 01:38:00.454 IST [23521] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:00.527 IST [23541] LOG:  too many background workers
+2019-10-28 01:38:00.527 IST [23541] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:00.527 IST [23541] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:00.529 IST [23541] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:00.556 IST [23541] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:00.734 IST [23542] LOG:  database system was shut down at 2019-10-28 01:38:00 IST
+2019-10-28 01:38:00.769 IST [23541] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 1814.000000
+numIndexTuples = 1814.000000
+numIndexPages = 5.000000
+indexTotalCost = 8.934750 numIndexPages = 5.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 9.041667 numIndexTuples = 1814.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 9.042186
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 9.046174
+indexStartupCost = 0.004506
+indexTotalCost = 9.046174
+indexSelectivity = 0.000050
+index_pages = 5.000000
+index_run_cost = 9.041667
+rel_tuples_fetched = 1814.000000
+max_IO_cost = 3230.805600 pages_fetched = 1808.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2.121985 pages_fetched = 13.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 11.163652
+cpu_run_cost = 0.096142, cpu_per_tuple = 0.000053 tuples_fetched = 1814.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780620    30413588      342088      659516    30271804
+Swap:      62498812         268    62498544
+waiting for server to shut down....2019-10-28 01:38:01.065 IST [23541] LOG:  received fast shutdown request
+2019-10-28 01:38:01.095 IST [23541] LOG:  aborting any active transactions
+2019-10-28 01:38:01.095 IST [23543] LOG:  shutting down
+2019-10-28 01:38:01.342 IST [23541] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:01.416 IST [23561] LOG:  too many background workers
+2019-10-28 01:38:01.416 IST [23561] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:01.416 IST [23561] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:01.417 IST [23561] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:01.456 IST [23561] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:01.657 IST [23562] LOG:  database system was shut down at 2019-10-28 01:38:01 IST
+2019-10-28 01:38:01.681 IST [23561] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 3643.000000
+numIndexTuples = 3643.000000
+numIndexPages = 10.000000
+indexTotalCost = 17.869500 numIndexPages = 10.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 18.084218 numIndexTuples = 3643.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 18.084737
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 18.088725
+indexStartupCost = 0.004506
+indexTotalCost = 18.088725
+indexSelectivity = 0.000100
+index_pages = 10.000000
+index_run_cost = 18.084218
+rel_tuples_fetched = 3643.000000
+max_IO_cost = 6463.398150 pages_fetched = 3617.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2.484940 pages_fetched = 26.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 20.569158
+cpu_run_cost = 0.193079, cpu_per_tuple = 0.000053 tuples_fetched = 3643.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1787592    30406196      342404      659936    30265216
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:02.022 IST [23561] LOG:  received fast shutdown request
+.2019-10-28 01:38:02.047 IST [23561] LOG:  aborting any active transactions
+2019-10-28 01:38:02.047 IST [23563] LOG:  shutting down
+2019-10-28 01:38:02.261 IST [23561] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:02.357 IST [23581] LOG:  too many background workers
+2019-10-28 01:38:02.357 IST [23581] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:02.357 IST [23581] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:02.357 IST [23581] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:02.391 IST [23581] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:02.558 IST [23582] LOG:  database system was shut down at 2019-10-28 01:38:02 IST
+2019-10-28 01:38:02.593 IST [23581] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 7300.000000
+numIndexTuples = 7300.000000
+numIndexPages = 21.000000
+indexTotalCost = 37.525950 numIndexPages = 21.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 37.956212 numIndexTuples = 7300.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 37.956730
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 37.960718
+indexStartupCost = 0.004506
+indexTotalCost = 37.960718
+indexSelectivity = 0.000201
+index_pages = 21.000000
+index_run_cost = 37.956212
+rel_tuples_fetched = 7300.000000
+max_IO_cost = 12860.679150 pages_fetched = 7197.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 3.182930 pages_fetched = 51.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 41.139142
+cpu_run_cost = 0.386900, cpu_per_tuple = 0.000053 tuples_fetched = 7300.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779940    30413660      342624      660124    30272308
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:02.960 IST [23581] LOG:  received fast shutdown request
+.2019-10-28 01:38:02.987 IST [23581] LOG:  aborting any active transactions
+2019-10-28 01:38:02.988 IST [23583] LOG:  shutting down
+2019-10-28 01:38:03.175 IST [23581] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:03.314 IST [23601] LOG:  too many background workers
+2019-10-28 01:38:03.314 IST [23601] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:03.314 IST [23601] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:03.315 IST [23601] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:03.349 IST [23601] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:03.522 IST [23602] LOG:  database system was shut down at 2019-10-28 01:38:03 IST
+2019-10-28 01:38:03.557 IST [23601] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14614.000000
+numIndexTuples = 14614.000000
+numIndexPages = 41.000000
+indexTotalCost = 73.264950 numIndexPages = 41.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 74.126299 numIndexTuples = 14614.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 74.126818
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 74.130806
+indexStartupCost = 0.004506
+indexTotalCost = 74.130806
+indexSelectivity = 0.000403
+index_pages = 41.000000
+index_run_cost = 74.126299
+rel_tuples_fetched = 14614.000000
+max_IO_cost = 25381.837800 pages_fetched = 14204.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 4.606830 pages_fetched = 102.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 78.733129
+cpu_run_cost = 0.774542, cpu_per_tuple = 0.000053 tuples_fetched = 14614.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779832    30411700      343524      662192    30271664
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:03.839 IST [23601] LOG:  received fast shutdown request
+.2019-10-28 01:38:03.865 IST [23601] LOG:  aborting any active transactions
+2019-10-28 01:38:03.866 IST [23603] LOG:  shutting down
+2019-10-28 01:38:04.060 IST [23601] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:04.175 IST [23621] LOG:  too many background workers
+2019-10-28 01:38:04.175 IST [23621] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:04.175 IST [23621] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:04.176 IST [23621] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:04.210 IST [23621] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:04.428 IST [23622] LOG:  database system was shut down at 2019-10-28 01:38:03 IST
+2019-10-28 01:38:04.457 IST [23621] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 29243.000000
+numIndexTuples = 29243.000000
+numIndexPages = 81.000000
+indexTotalCost = 144.742950 numIndexPages = 81.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 146.466532 numIndexTuples = 29243.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146.467051
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146.471039
+indexStartupCost = 0.004506
+indexTotalCost = 146.471039
+indexSelectivity = 0.000807
+index_pages = 81.000000
+index_run_cost = 146.466532
+rel_tuples_fetched = 29243.000000
+max_IO_cost = 49398.445800 pages_fetched = 27644.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 7.454629 pages_fetched = 204.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 153.921161
+cpu_run_cost = 1.549879, cpu_per_tuple = 0.000053 tuples_fetched = 29243.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779560    30410040      344756      664124    30271380
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:04.813 IST [23621] LOG:  received fast shutdown request
+.2019-10-28 01:38:04.840 IST [23621] LOG:  aborting any active transactions
+2019-10-28 01:38:04.841 IST [23623] LOG:  shutting down
+2019-10-28 01:38:05.036 IST [23621] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:05.144 IST [23641] LOG:  too many background workers
+2019-10-28 01:38:05.144 IST [23641] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:05.144 IST [23641] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:05.145 IST [23641] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:05.167 IST [23641] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:05.351 IST [23642] LOG:  database system was shut down at 2019-10-28 01:38:04 IST
+2019-10-28 01:38:05.392 IST [23641] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 58499.000000
+numIndexTuples = 58499.000000
+numIndexPages = 161.000000
+indexTotalCost = 287.698950 numIndexPages = 161.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 291.146881 numIndexTuples = 58499.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 291.147400
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 291.151387
+indexStartupCost = 0.004506
+indexTotalCost = 291.151387
+indexSelectivity = 0.001614
+index_pages = 161.000000
+index_run_cost = 291.146881
+rel_tuples_fetched = 58499.000000
+max_IO_cost = 93691.575450 pages_fetched = 52431.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 13.150227 pages_fetched = 408.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 304.297108
+cpu_run_cost = 3.100447, cpu_per_tuple = 0.000053 tuples_fetched = 58499.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779976    30404396      347204      669352    30268468
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:06.529 IST [23641] LOG:  received fast shutdown request
+.2019-10-28 01:38:06.558 IST [23641] LOG:  aborting any active transactions
+2019-10-28 01:38:06.558 IST [23643] LOG:  shutting down
+2019-10-28 01:38:06.755 IST [23641] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:06.931 IST [23661] LOG:  too many background workers
+2019-10-28 01:38:06.931 IST [23661] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:06.931 IST [23661] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:06.944 IST [23661] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:06.982 IST [23661] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:07.132 IST [23662] LOG:  database system was shut down at 2019-10-28 01:38:06 IST
+2019-10-28 01:38:07.172 IST [23661] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 126267.000000
+numIndexTuples = 126267.000000
+numIndexPages = 347.000000
+indexTotalCost = 620.071650 numIndexPages = 347.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 627.513827 numIndexTuples = 126267.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 627.514345
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 627.518333
+indexStartupCost = 0.004506
+indexTotalCost = 627.518333
+indexSelectivity = 0.003483
+index_pages = 347.000000
+index_run_cost = 627.513827
+rel_tuples_fetched = 126267.000000
+max_IO_cost = 180535.558500 pages_fetched = 101030.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 26.356198 pages_fetched = 881.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 653.870025
+cpu_run_cost = 6.692151, cpu_per_tuple = 0.000053 tuples_fetched = 126267.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779244    30396568      351452      677912    30264904
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:08.354 IST [23661] LOG:  received fast shutdown request
+.2019-10-28 01:38:08.378 IST [23661] LOG:  aborting any active transactions
+2019-10-28 01:38:08.379 IST [23663] LOG:  shutting down
+2019-10-28 01:38:08.579 IST [23661] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:08.734 IST [23681] LOG:  too many background workers
+2019-10-28 01:38:08.734 IST [23681] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:08.734 IST [23681] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:08.744 IST [23681] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:08.786 IST [23681] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:08.970 IST [23682] LOG:  database system was shut down at 2019-10-28 01:38:08 IST
+2019-10-28 01:38:09.011 IST [23681] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 228810.000000
+numIndexTuples = 228810.000000
+numIndexPages = 628.000000
+indexTotalCost = 1122.204600 numIndexPages = 628.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 1135.690661 numIndexTuples = 228810.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1135.691180
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 1135.695168
+indexStartupCost = 0.004506
+indexTotalCost = 1135.695168
+indexSelectivity = 0.006311
+index_pages = 628.000000
+index_run_cost = 1135.690661
+rel_tuples_fetched = 228810.000000
+max_IO_cost = 281460.707550 pages_fetched = 157509.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 46.290792 pages_fetched = 1595.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 1181.981454
+cpu_run_cost = 12.126930, cpu_per_tuple = 0.000053 tuples_fetched = 228810.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779888    30379780      359676      694056    30256004
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:10.117 IST [23681] LOG:  received fast shutdown request
+.2019-10-28 01:38:10.142 IST [23681] LOG:  aborting any active transactions
+2019-10-28 01:38:10.143 IST [23683] LOG:  shutting down
+2019-10-28 01:38:10.335 IST [23681] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:10.480 IST [23701] LOG:  too many background workers
+2019-10-28 01:38:10.480 IST [23701] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:10.480 IST [23701] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:10.493 IST [23701] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:10.532 IST [23701] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:10.716 IST [23702] LOG:  database system was shut down at 2019-10-28 01:38:10 IST
+2019-10-28 01:38:10.751 IST [23701] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 453689.000000
+numIndexTuples = 453689.000000
+numIndexPages = 1244.000000
+indexTotalCost = 2222.965800 numIndexPages = 1244.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 2249.706230 numIndexTuples = 453689.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 2249.706748
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 2249.710736
+indexStartupCost = 0.004506
+indexTotalCost = 2249.710736
+indexSelectivity = 0.012514
+index_pages = 1244.000000
+index_run_cost = 2249.706230
+rel_tuples_fetched = 453689.000000
+max_IO_cost = 427238.301600 pages_fetched = 239088.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 90.068725 pages_fetched = 3163.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 2339.774955
+cpu_run_cost = 24.045517, cpu_per_tuple = 0.000053 tuples_fetched = 453689.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1778940    30345024      377016      729760    30238548
+Swap:      62498812         268    62498544
+waiting for server to shut down....2019-10-28 01:38:12.043 IST [23701] LOG:  received fast shutdown request
+2019-10-28 01:38:12.071 IST [23701] LOG:  aborting any active transactions
+2019-10-28 01:38:12.072 IST [23703] LOG:  shutting down
+2019-10-28 01:38:12.301 IST [23701] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:12.432 IST [23721] LOG:  too many background workers
+2019-10-28 01:38:12.432 IST [23721] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:12.432 IST [23721] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:12.441 IST [23721] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:12.478 IST [23721] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:12.634 IST [23722] LOG:  database system was shut down at 2019-10-28 01:38:12 IST
+2019-10-28 01:38:12.669 IST [23721] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 923872.000000
+numIndexTuples = 923872.000000
+numIndexPages = 2533.000000
+indexTotalCost = 4526.344350 numIndexPages = 2533.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 4580.797366 numIndexTuples = 923872.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 4580.797884
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 4580.801872
+indexStartupCost = 0.004506
+indexTotalCost = 4580.801872
+indexSelectivity = 0.025482
+index_pages = 2533.000000
+index_run_cost = 4580.797366
+rel_tuples_fetched = 923872.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 181.589174 pages_fetched = 6441.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 4762.386540
+cpu_run_cost = 48.965216, cpu_per_tuple = 0.000053 tuples_fetched = 923872.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1780564    30275180      411560      797980    30203324
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:14.363 IST [23721] LOG:  received fast shutdown request
+.2019-10-28 01:38:14.394 IST [23721] LOG:  aborting any active transactions
+2019-10-28 01:38:14.395 IST [23723] LOG:  shutting down
+2019-10-28 01:38:14.604 IST [23721] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:14.762 IST [23741] LOG:  too many background workers
+2019-10-28 01:38:14.762 IST [23741] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:14.762 IST [23741] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:14.773 IST [23741] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:14.802 IST [23741] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:14.986 IST [23742] LOG:  database system was shut down at 2019-10-28 01:38:14 IST
+2019-10-28 01:38:15.027 IST [23741] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 1749221.000000
+numIndexTuples = 1749221.000000
+numIndexPages = 4795.000000
+indexTotalCost = 8568.425250 numIndexPages = 4795.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 8671.524336 numIndexTuples = 1749221.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 8671.524854
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 8671.528842
+indexStartupCost = 0.004506
+indexTotalCost = 8671.528842
+indexSelectivity = 0.048247
+index_pages = 4795.000000
+index_run_cost = 8671.524336
+rel_tuples_fetched = 1749221.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 342.210633 pages_fetched = 12194.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 9013.734969
+cpu_run_cost = 92.708713, cpu_per_tuple = 0.000053 tuples_fetched = 1749221.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779656    30141240      478636      932828    30136904
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:17.163 IST [23741] LOG:  received fast shutdown request
+.2019-10-28 01:38:17.192 IST [23741] LOG:  aborting any active transactions
+2019-10-28 01:38:17.193 IST [23743] LOG:  shutting down
+2019-10-28 01:38:17.408 IST [23741] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:17.582 IST [23761] LOG:  too many background workers
+2019-10-28 01:38:17.582 IST [23761] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:17.582 IST [23761] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:17.596 IST [23761] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:17.634 IST [23761] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:17.813 IST [23762] LOG:  database system was shut down at 2019-10-28 01:38:17 IST
+2019-10-28 01:38:17.847 IST [23761] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 3477966.000000
+numIndexTuples = 3477966.000000
+numIndexPages = 9534.000000
+indexTotalCost = 17036.781300 numIndexPages = 9534.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 17241.772616 numIndexTuples = 3477966.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 17241.773134
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 17241.777122
+indexStartupCost = 0.004506
+indexTotalCost = 17241.777122
+indexSelectivity = 0.095929
+index_pages = 9534.000000
+index_run_cost = 17241.772616
+rel_tuples_fetched = 3477966.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 678.641813 pages_fetched = 24244.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 17920.414429
+cpu_run_cost = 184.332198, cpu_per_tuple = 0.000053 tuples_fetched = 3477966.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779876    29871292      613508     1202556    30001752
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:20.952 IST [23761] LOG:  received fast shutdown request
+.2019-10-28 01:38:20.979 IST [23761] LOG:  aborting any active transactions
+2019-10-28 01:38:20.979 IST [23763] LOG:  shutting down
+2019-10-28 01:38:21.201 IST [23761] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:21.335 IST [23782] LOG:  too many background workers
+2019-10-28 01:38:21.335 IST [23782] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:21.335 IST [23782] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:21.345 IST [23782] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:21.386 IST [23782] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:21.576 IST [23783] LOG:  database system was shut down at 2019-10-28 01:38:21 IST
+2019-10-28 01:38:21.617 IST [23782] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 7053724.000000
+numIndexTuples = 7053724.000000
+numIndexPages = 19336.000000
+indexTotalCost = 34552.465200 numIndexPages = 19336.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 34968.211693 numIndexTuples = 7053724.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 34968.212211
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 34968.216199
+indexStartupCost = 0.004506
+indexTotalCost = 34968.216199
+indexSelectivity = 0.194555
+index_pages = 19336.000000
+index_run_cost = 34968.211693
+rel_tuples_fetched = 7053724.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 1374.565762 pages_fetched = 49170.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 36342.777455
+cpu_run_cost = 373.847372, cpu_per_tuple = 0.000053 tuples_fetched = 7053724.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1779700    29311268      892460     1762756    29722864
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:26.426 IST [23782] LOG:  received fast shutdown request
+.2019-10-28 01:38:26.457 IST [23782] LOG:  aborting any active transactions
+2019-10-28 01:38:26.457 IST [23784] LOG:  shutting down
+2019-10-28 01:38:26.691 IST [23782] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:26.818 IST [23802] LOG:  too many background workers
+2019-10-28 01:38:26.818 IST [23802] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:26.818 IST [23802] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:26.830 IST [23802] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:26.870 IST [23802] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:27.048 IST [23803] LOG:  database system was shut down at 2019-10-28 01:38:26 IST
+2019-10-28 01:38:27.089 IST [23802] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 14298573.000000
+numIndexTuples = 14298573.000000
+numIndexPages = 39195.000000
+indexTotalCost = 70039.505250 numIndexPages = 39195.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 70882.263143 numIndexTuples = 14298573.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 70882.263661
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 70882.267649
+indexStartupCost = 0.004506
+indexTotalCost = 70882.267649
+indexSelectivity = 0.394382
+index_pages = 39195.000000
+index_run_cost = 70882.263143
+rel_tuples_fetched = 14298573.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 2784.561402 pages_fetched = 99672.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 73666.824544
+cpu_run_cost = 757.824369, cpu_per_tuple = 0.000053 tuples_fetched = 14298573.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1782552    28150364     1469860     2920808    29141456
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:35.506 IST [23802] LOG:  received fast shutdown request
+.2019-10-28 01:38:35.535 IST [23802] LOG:  aborting any active transactions
+2019-10-28 01:38:35.536 IST [23804] LOG:  shutting down
+2019-10-28 01:38:35.816 IST [23802] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:35.988 IST [23822] LOG:  too many background workers
+2019-10-28 01:38:35.988 IST [23822] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:35.988 IST [23822] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:36.002 IST [23822] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:36.039 IST [23822] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:36.229 IST [23823] LOG:  database system was shut down at 2019-10-28 01:38:35 IST
+2019-10-28 01:38:36.270 IST [23822] LOG:  database system is ready to accept connections
+ done
+server started
+numIndexTuples = 29485700.000000
+numIndexTuples = 29485700.000000
+numIndexPages = 80825.000000
+indexTotalCost = 144430.233750 numIndexPages = 80825.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 146168.120908 numIndexTuples = 29485700.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146168.121426
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 146168.125414
+indexStartupCost = 0.004506
+indexTotalCost = 146168.125414
+indexSelectivity = 0.813272
+index_pages = 80825.000000
+index_run_cost = 146168.120908
+rel_tuples_fetched = 29485700.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 5740.269856 pages_fetched = 205537.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 151908.390764
+cpu_run_cost = 1562.742100, cpu_per_tuple = 0.000053 tuples_fetched = 29485700.000000              total        used        free      shared  buff/cache   available
+Mem:       32853724     1784716    25802076     2639620     5266932    27966816
+Swap:      62498812         268    62498544
+waiting for server to shut down...2019-10-28 01:38:51.735 IST [23822] LOG:  received fast shutdown request
+.2019-10-28 01:38:51.767 IST [23822] LOG:  aborting any active transactions
+2019-10-28 01:38:51.770 IST [23824] LOG:  shutting down
+2019-10-28 01:38:52.129 IST [23822] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2019-10-28 01:38:52.220 IST [23842] LOG:  too many background workers
+2019-10-28 01:38:52.220 IST [23842] DETAIL:  Up to 0 background workers can be registered with the current settings.
+2019-10-28 01:38:52.220 IST [23842] HINT:  Consider increasing the configuration parameter "max_worker_processes".
+2019-10-28 01:38:52.237 IST [23842] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-10-28 01:38:52.272 IST [23842] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-10-28 01:38:52.439 IST [23843] LOG:  database system was shut down at 2019-10-28 01:38:51 IST
+2019-10-28 01:38:52.485 IST [23842] LOG:  database system is ready to accept connections
+ done
+server started
+
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..5.50 rows=443 width=42) (actual time=0.029..0.437 rows=486 loops=1)',), ('  Index Cond: (movie_id < 32)',), ('  Buffers: shared hit=5 read=4',), ('Planning Time: 7.271 ms',), ('Execution Time: 0.865 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..7.42 rows=900 width=42) (actual time=0.011..0.418 rows=1222 loops=1)',), ('  Index Cond: (movie_id < 64)',), ('  Buffers: shared hit=5 read=12',), ('Planning Time: 7.955 ms',), ('Execution Time: 0.665 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..11.26 rows=1814 width=42) (actual time=0.010..0.525 rows=1650 loops=1)',), ('  Index Cond: (movie_id < 128)',), ('  Buffers: shared hit=5 read=16',), ('Planning Time: 5.917 ms',), ('Execution Time: 0.892 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..20.77 rows=3643 width=42) (actual time=0.010..0.840 rows=2320 loops=1)',), ('  Index Cond: (movie_id < 256)',), ('  Buffers: shared hit=5 read=23',), ('Planning Time: 21.151 ms',), ('Execution Time: 1.241 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..41.53 rows=7300 width=42) (actual time=0.011..8.561 rows=8082 loops=1)',), ('  Index Cond: (movie_id < 512)',), ('  Buffers: shared hit=5 read=79',), ('Planning Time: 7.695 ms',), ('Execution Time: 9.157 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..79.51 rows=14614 width=42) (actual time=0.011..22.695 rows=18479 loops=1)',), ('  Index Cond: (movie_id < 1024)',), ('  Buffers: shared hit=5 read=187',), ('Planning Time: 5.868 ms',), ('Execution Time: 23.678 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..155.48 rows=29243 width=42) (actual time=0.020..11.995 rows=31590 loops=1)',), ('  Index Cond: (movie_id < 2048)',), ('  Buffers: shared hit=5 read=321',), ('Planning Time: 7.405 ms',), ('Execution Time: 14.415 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..307.40 rows=58499 width=42) (actual time=0.011..54.254 rows=61548 loops=1)',), ('  Index Cond: (movie_id < 4096)',), ('  Buffers: shared hit=5 read=623',), ('Planning Time: 171.787 ms',), ('Execution Time: 56.557 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..660.57 rows=126267 width=42) (actual time=26.065..102.705 rows=117510 loops=1)',), ('  Index Cond: (movie_id < 8192)',), ('  Buffers: shared read=1159',), ('Planning Time: 114.378 ms',), ('Execution Time: 113.321 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..1194.11 rows=228810 width=42) (actual time=8.928..113.355 rows=219036 loops=1)',), ('  Index Cond: (movie_id < 16384)',), ('  Buffers: shared read=2187',), ('Planning Time: 171.517 ms',), ('Execution Time: 127.709 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..2363.82 rows=453689 width=42) (actual time=14.637..233.136 rows=446865 loops=1)',), ('  Index Cond: (movie_id < 32768)',), ('  Buffers: shared read=4376',), ('Planning Time: 102.922 ms',), ('Execution Time: 255.939 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..4811.36 rows=923872 width=42) (actual time=14.665..551.376 rows=887354 loops=1)',), ('  Index Cond: (movie_id < 65536)',), ('  Buffers: shared read=8676',), ('Planning Time: 143.226 ms',), ('Execution Time: 588.483 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..9106.45 rows=1749221 width=42) (actual time=14.703..831.119 rows=1741294 loops=1)',), ('  Index Cond: (movie_id < 131072)',), ('  Buffers: shared read=17057',), ('Planning Time: 143.219 ms',), ('Execution Time: 890.004 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..18104.75 rows=3477966 width=42) (actual time=14.679..1623.066 rows=3452120 loops=1)',), ('  Index Cond: (movie_id < 262144)',), ('  Buffers: shared read=33916',), ('Planning Time: 154.650 ms',), ('Execution Time: 1738.394 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..36716.63 rows=7053724 width=42) (actual time=14.710..3436.794 rows=7026699 loops=1)',), ('  Index Cond: (movie_id < 524288)',), ('  Buffers: shared read=68785',), ('Planning Time: 143.194 ms',), ('Execution Time: 3667.015 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..74424.65 rows=14298573 width=42) (actual time=14.604..6743.965 rows=14372215 loops=1)',), ('  Index Cond: (movie_id < 1048576)',), ('  Buffers: shared read=140960',), ('Planning Time: 131.797 ms',), ('Execution Time: 7212.577 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..153471.14 rows=29485700 width=42) (actual time=14.662..13196.153 rows=29474934 loops=1)',), ('  Index Cond: (movie_id < 2097152)',), ('  Buffers: shared read=287180',), ('Planning Time: 131.826 ms',), ('Execution Time: 14144.929 ms',)]
+[('Index Scan using cast_info_movie_id_sorted_movie_id_idx on cast_info_movie_id_sorted  (cost=0.00..172077.35 rows=33060509 width=42) (actual time=14.560..14551.354 rows=33103643 loops=1)',), ('  Index Cond: (movie_id < 2331602)',), ('  Buffers: shared read=321626',), ('Planning Time: 131.933 ms',), ('Execution Time: 15615.374 ms',)]
+numIndexTuples = 33060509.000000
+numIndexTuples = 33060509.000000
+numIndexPages = 90624.000000
+indexTotalCost = 161940.556800 numIndexPages = 90624.000000 spc_random_page_cost = 1.786950
+indexTotalCost = 163889.143200 numIndexTuples = 33060509.000000 cpu_index_tuple_cost = 0.000039
+index->tuples = 36255648.000000
+descentCost = 0.000518
+costs.indexStartupCost = 0.000518
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 163889.143719
+descentCost = 0.003988
+costs.indexStartupCost = 0.004506
+costs.num_sa_scans = 1.000000
+costs.indexTotalCost = 163889.147707
+indexStartupCost = 0.004506
+indexTotalCost = 163889.147707
+indexSelectivity = 0.911872
+index_pages = 90624.000000
+index_run_cost = 163889.143200
+rel_tuples_fetched = 33060509.000000
+max_IO_cost = 451612.299600 pages_fetched = 252728.000000 spc_random_page_cost = 1.786950
+min_IO_cost = 6435.998368 pages_fetched = 230456.000000 spc_seq_page_cost = 0.027920
+indexCorrelation = 1.000000
+run_cost = 170325.141568
+cpu_run_cost = 1752.206977, cpu_per_tuple = 0.000053 tuples_fetched = 33060509.0000002019-10-28 01:53:01.511 IST [23842] LOG:  received fast shutdown request
+2019-10-28 01:53:01.545 IST [23842] LOG:  aborting any active transactions
+2019-10-28 01:53:01.551 IST [23844] LOG:  shutting down
+2019-10-28 01:53:01.941 IST [23842] LOG:  database system is shut down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 2019-10-28 01:36:38.904 IST [22334] LOG:  received fast shutdown request
+2019-10-28 01:36:38.928 IST [22334] LOG:  aborting any active transactions
+2019-10-28 01:36:38.933 IST [22336] LOG:  shutting down
+2019-10-28 01:36:39.307 IST [22334] LOG:  database system is shut down

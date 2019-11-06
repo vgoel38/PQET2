@@ -1,0 +1,5 @@
+select * from pg_relpages('relname');
+
+select ctid, id from relname;
+
+select correlation, tablename, attname from pg_stats;
