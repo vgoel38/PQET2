@@ -19,3 +19,6 @@ perf stat -d -d -d -p pid
 
 //check main memory usage
 free -m -w -l
+
+//free main memory
+free && sync && sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches' && free > /dev/null
