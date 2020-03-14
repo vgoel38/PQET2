@@ -1,59 +1,31 @@
-#cs, cr, ct, ci, co
-
-#find ct
-select * from title (in memory)
-et = 282
-tuples = 2528312
-ct = 0.00011153
-
-#find co
-select count(*) from title (in memory)
-et = 460
-tuples = 2528312
-co = 0.0000704
-
-#find ci
-select * from title where id>-1 (in memory)
-et = 1611
-tuples = 2528312
-ci = 0.00027727
-
-#find cs
-select * from title (on disk)
-et = 2682
-tuples = 2528312
-pages = 38513
-cs = 0.06964
-
-----------------------------------------------------------------------
 #find ct
 select * from cast_info (in memory)
-et = 1921
+et = 1500
 tuples = 36244344
-ct = 0.000060699
+ct = 0.00004138567
 
 #find co
 select count(*) from cast_info (in memory)
-et = 3337
+et = 2630
 tuples = 36244344
-co = 0.0000474558
+co = 0.000031177278
 
 #find ci
 select * from cast_info where id>-1 (in memory)
-et = 3934
+et = 3750
 tuples = 36244344
-ci = 0.0000138504
+ci = 0.00003090137319
 
 #find cs
 select * from cast_info (on disk)
-et = 8975
+et = 10431
 tuples = 36244344
-pages = 288333
-cs = 0.0519538
+pages = 252654
+cs = 0.03534873779
 
 #find cr
-select * from cast_info where id>-1 (on disk)
-et = 935173
+select * from cast_info where movie_id>-1 (on disk)
+et = 1083000
 tuples = 36244344
-pages = rel:288333,index:99382, read=387360, hit=29754
-cr = 2.36413415
+pages = rel:252654,index:99382, read=351684, hit=35014434
+cr = 3.068802533319

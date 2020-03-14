@@ -1,0 +1,96 @@
+explain (analyse,buffers) select * from cast_info ci full outer join movie_info mi on ci.movie_id =  mi.movie_id;
+                                                               QUERY PLAN                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------
+ Merge Full Join  (cost=95556.75..141376.90 rows=432764394 width=115) (actual time=32982.018..181361.267 rows=461303946 loops=1)
+   Merge Cond: (mi.movie_id = ci.movie_id)
+   Buffers: shared hit=4 read=414546
+   ->  Sort  (cost=28374.32..28836.86 rows=14835720 width=73) (actual time=12445.616..14117.187 rows=14835720 loops=1)
+         Sort Key: mi.movie_id
+         Sort Method: quicksort  Memory: 2188779kB
+         Buffers: shared hit=4 read=161892
+         ->  Seq Scan on movie_info mi  (cost=0.00..6336.66 rows=14835720 width=73) (actual time=35.451..6459.129 rows=14835720 loops=1)
+               Buffers: shared read=161892
+   ->  Sort  (cost=67182.43..68312.43 rows=36244344 width=42) (actual time=20536.390..45431.143 rows=460742913 loops=1)
+         Sort Key: ci.movie_id
+         Sort Method: quicksort  Memory: 3715750kB
+         Buffers: shared read=252654
+         ->  Seq Scan on cast_info ci  (cost=0.00..10431.00 rows=36244344 width=42) (actual time=41.013..6632.649 rows=36244344 loops=1)
+               Buffers: shared read=252654
+ Planning Time: 1739.096 ms
+ Execution Time: 201719.940 ms
+(17 rows)
+
+
+explain (analyse,buffers) select * from cast_info ci, movie_info mi where ci.movie_id =  mi.movie_id;
+                                                               QUERY PLAN                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------
+ Merge Join  (cost=95556.75..141376.85 rows=432764394 width=115) (actual time=33502.629..183883.742 rows=460456073 loops=1)
+   Merge Cond: (mi.movie_id = ci.movie_id)
+   Buffers: shared hit=8 read=414542
+   ->  Sort  (cost=28374.32..28836.86 rows=14835720 width=73) (actual time=11599.935..13171.554 rows=14835029 loops=1)
+         Sort Key: mi.movie_id
+         Sort Method: quicksort  Memory: 2188779kB
+         Buffers: shared hit=6 read=161890
+         ->  Seq Scan on movie_info mi  (cost=0.00..6336.66 rows=14835720 width=73) (actual time=10.001..5608.857 rows=14835720 loops=1)
+               Buffers: shared hit=2 read=161890
+   ->  Sort  (cost=67182.43..68312.43 rows=36244344 width=42) (actual time=21902.681..46676.840 rows=460742913 loops=1)
+         Sort Key: ci.movie_id
+         Sort Method: quicksort  Memory: 3715750kB
+         Buffers: shared hit=2 read=252652
+         ->  Seq Scan on cast_info ci  (cost=0.00..10431.00 rows=36244344 width=42) (actual time=36.242..7939.627 rows=36244344 loops=1)
+               Buffers: shared hit=2 read=252652
+ Planning Time: 1257.289 ms
+ Execution Time: 204270.721 ms
+(17 rows)
+
+
+
+
+explain (analyse,buffers) select * from cast_info ci full outer join movie_info mi on ci.id =  mi.id;
+                                                               QUERY PLAN                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------
+ Merge Full Join  (cost=95556.75..99355.81 rows=36244344 width=115) (actual time=28069.043..43178.831 rows=36244344 loops=1)
+   Merge Cond: (ci.id = mi.id)
+   Buffers: shared read=414546
+   ->  Sort  (cost=67182.43..68312.43 rows=36244344 width=42) (actual time=17263.440..19067.992 rows=36244344 loops=1)
+         Sort Key: ci.id
+         Sort Method: quicksort  Memory: 3715750kB
+         Buffers: shared read=252654
+         ->  Seq Scan on cast_info ci  (cost=0.00..10431.00 rows=36244344 width=42) (actual time=25.132..7094.621 rows=36244344 loops=1)
+               Buffers: shared read=252654
+   ->  Sort  (cost=28374.32..28836.86 rows=14835720 width=73) (actual time=10805.591..11546.225 rows=14835720 loops=1)
+         Sort Key: mi.id
+         Sort Method: quicksort  Memory: 2188779kB
+         Buffers: shared read=161892
+         ->  Seq Scan on movie_info mi  (cost=0.00..6336.66 rows=14835720 width=73) (actual time=42.175..5497.269 rows=14835720 loops=1)
+               Buffers: shared read=161892
+ Planning Time: 0.393 ms
+ Execution Time: 44951.213 ms
+(17 rows)
+
+
+
+
+explain (analyse,buffers) select * from cast_info ci, movie_info mi where ci.id =  mi.id;
+                                                               QUERY PLAN                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------
+ Merge Join  (cost=95556.75..98020.15 rows=14835720 width=115) (actual time=27405.976..37151.703 rows=14835720 loops=1)
+   Merge Cond: (ci.id = mi.id)
+   Buffers: shared hit=6 read=414544
+   ->  Sort  (cost=67182.43..68312.43 rows=36244344 width=42) (actual time=16576.492..17281.631 rows=14835721 loops=1)
+         Sort Key: ci.id
+         Sort Method: quicksort  Memory: 3715750kB
+         Buffers: shared hit=5 read=252653
+         ->  Seq Scan on cast_info ci  (cost=0.00..10431.00 rows=36244344 width=42) (actual time=0.015..6589.087 rows=36244344 loops=1)
+               Buffers: shared hit=1 read=252653
+   ->  Sort  (cost=28374.32..28836.86 rows=14835720 width=73) (actual time=10829.470..11550.317 rows=14835720 loops=1)
+         Sort Key: mi.id
+         Sort Method: quicksort  Memory: 2188779kB
+         Buffers: shared hit=1 read=161891
+         ->  Seq Scan on movie_info mi  (cost=0.00..6336.66 rows=14835720 width=73) (actual time=19.659..5570.546 rows=14835720 loops=1)
+               Buffers: shared hit=1 read=161891
+ Planning Time: 491.816 ms
+ Execution Time: 38012.045 ms
+(17 rows)
+
+

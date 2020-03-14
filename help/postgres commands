@@ -3,3 +3,20 @@ select * from pg_relpages('relname');
 select ctid, id from relname;
 
 select correlation, tablename, attname from pg_stats;
+
+CREATE TABLE mycopy AS
+SELECT * FROM mytable;
+
+https://www.postgresql.org/docs/current/monitoring-stats.html#PG-STAT-USER-FUNCTIONS-VIEW
+
+COPY persons(first_name,last_name,dob,email) 
+FROM 'C:\tmp\persons.csv' DELIMITER ',' CSV HEADER;
+
+select heap_blks_read, heap_blks_hit, idx_blks_read, idx_blks_hit from pg_statio_all_tables where relname = 'movie_info';
+
+pg_statio_all_indexes
+
+select (ctid::text::point)[0]::bigint, movie_id from movie_info where movie_id=999999;
+
+
+\copy (select movie_id from movie_info) to '/home/sahana/Documents/PQET/Prediction-of-Query-Execution-Time/index_scan/nest_loop/movie_id.csv';

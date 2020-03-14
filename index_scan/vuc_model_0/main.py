@@ -66,8 +66,8 @@ def create_index(cur, index, table, col):
 
 
 
-def run_query(cur, table, x):
-    sql = "EXPLAIN (ANALYZE,BUFFERS) SELECT * FROM " + table + " WHERE movie_id <" + str(x) + ";"
+def run_query(cur, table, x, y):
+    sql = "EXPLAIN (ANALYZE,BUFFERS) SELECT * FROM " + table + " WHERE movie_id >=" + str(x) + " and movie_id<= " + str(y) + ";"
     execute_sql(cur, sql)
 
     # file = open('/home/dsladmin/Desktop/PQET/src/query.sql', 'w')

@@ -1,0 +1,49 @@
+Table 1 [1,n] 
+Table 2 [n+1,m]
+
+explain (analyse,buffers) select * from lmj_del l, rmj_del r where l.col1 = r.col1;
+                                                             QUERY PLAN                                                              
+-------------------------------------------------------------------------------------------------------------------------------------
+ Merge Join  (cost=35648.87..36062.73 rows=10000000 width=50) (actual time=12447.286..12447.287 rows=0 loops=1)
+   Merge Cond: (l.col1 = r.col1)
+   Buffers: shared hit=4 read=147060
+   ->  Sort  (cost=17512.66..17824.44 rows=10000000 width=25) (actual time=5535.311..5974.284 rows=10000000 loops=1)
+         Sort Key: l.col1
+         Sort Method: quicksort  Memory: 1174467kB
+         Buffers: shared hit=4 read=73530
+         ->  Seq Scan on lmj_del l  (cost=0.00..3013.05 rows=10000000 width=25) (actual time=26.717..3467.274 rows=10000000 loops=1)
+               Buffers: shared read=73530
+   ->  Sort  (cost=17512.66..17824.44 rows=10000000 width=25) (actual time=5477.095..5477.095 rows=1 loops=1)
+         Sort Key: r.col1
+         Sort Method: quicksort  Memory: 1174467kB
+         Buffers: shared read=73530
+         ->  Seq Scan on rmj_del r  (cost=0.00..3013.05 rows=10000000 width=25) (actual time=17.317..3453.408 rows=10000000 loops=1)
+               Buffers: shared read=73530
+ Planning Time: 155.231 ms
+ Execution Time: 12552.146 ms
+(17 rows)
+
+
+explain (analyse,buffers) select * from lmj_del l, rmj_del r where l.col1 = r.col1;
+                                                             QUERY PLAN                                                              
+-------------------------------------------------------------------------------------------------------------------------------------
+ Merge Join  (cost=73791.86..74619.57 rows=20000000 width=50) (actual time=18928.670..18928.670 rows=0 loops=1)
+   Merge Cond: (l.col1 = r.col1)
+   Buffers: shared hit=4 read=294118
+   ->  Sort  (cost=36272.38..36895.93 rows=20000000 width=25) (actual time=7324.897..8247.474 rows=20000000 loops=1)
+         Sort Key: l.col1
+         Sort Method: quicksort  Memory: 2348933kB
+         Buffers: shared hit=4 read=147059
+         ->  Seq Scan on lmj_del l  (cost=0.00..6026.06 rows=20000000 width=25) (actual time=29.131..3857.824 rows=20000000 loops=1)
+               Buffers: shared read=147059
+   ->  Sort  (cost=36272.38..36895.93 rows=20000000 width=25) (actual time=8728.339..8728.339 rows=1 loops=1)
+         Sort Key: r.col1
+         Sort Method: quicksort  Memory: 2348933kB
+         Buffers: shared read=147059
+         ->  Seq Scan on rmj_del r  (cost=0.00..6026.06 rows=20000000 width=25) (actual time=32.304..5302.157 rows=20000000 loops=1)
+               Buffers: shared read=147059
+ Planning Time: 253.950 ms
+ Execution Time: 19093.603 ms
+(17 rows)
+
+

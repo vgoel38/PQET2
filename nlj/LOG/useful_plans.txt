@@ -1,0 +1,114 @@
+                                                            QUERY PLAN                                                            
+----------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..8812519.61 rows=234997 width=186) (actual time=62.315..3180121.178 rows=223785 loops=1)
+   Join Filter: (cn.id = at.id)
+   Rows Removed by Join Filter: 29335935881
+   Buffers: shared read=9186, temp read=422638137 written=5173
+   ->  Seq Scan on company_name cn  (cost=0.00..115.56 rows=234997 width=75) (actual time=25.714..169.365 rows=234997 loops=1)
+         Buffers: shared read=2994
+   ->  Materialize  (cost=0.00..256.38 rows=361472 width=111) (actual time=0.002..8.186 rows=124836 loops=234997)
+         Buffers: shared read=6192, temp read=422638137 written=5173
+         ->  Seq Scan on aka_title at  (cost=0.00..233.84 rows=361472 width=111) (actual time=7.273..162.051 rows=361472 loops=1)
+               Buffers: shared read=6192
+ Planning Time: 297.121 ms
+ Execution Time: 3180175.222 ms
+(12 rows)
+
+                                                            QUERY PLAN                                                            
+----------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..8812519.61 rows=234997 width=186) (actual time=62.306..3133002.823 rows=223785 loops=1)
+   Join Filter: (cn.id = at.id)
+   Rows Removed by Join Filter: 29335935881
+   Buffers: shared read=9186, temp read=422638137 written=5173
+   ->  Seq Scan on company_name cn  (cost=0.00..115.56 rows=234997 width=75) (actual time=25.670..188.723 rows=234997 loops=1)
+         Buffers: shared read=2994
+   ->  Materialize  (cost=0.00..256.38 rows=361472 width=111) (actual time=0.002..8.193 rows=124836 loops=234997)
+         Buffers: shared read=6192, temp read=422638137 written=5173
+         ->  Seq Scan on aka_title at  (cost=0.00..233.84 rows=361472 width=111) (actual time=7.323..156.227 rows=361472 loops=1)
+               Buffers: shared read=6192
+ Planning Time: 240.448 ms
+ Execution Time: 3133067.390 ms
+(12 rows)
+
+                                                           QUERY PLAN                                                            
+---------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..47935519.22 rows=234997 width=186) (actual time=48.311..4947308.969 rows=223785 loops=1)
+   Join Filter: (cn.id = at.id)
+   Rows Removed by Join Filter: 58791077731
+   Buffers: shared hit=748708030 read=9186
+   ->  Seq Scan on aka_title at  (cost=0.00..233.84 rows=361472 width=111) (actual time=24.677..269.751 rows=361472 loops=1)
+         Buffers: shared read=6192
+   ->  Seq Scan on company_name cn  (cost=0.00..115.56 rows=234997 width=75) (actual time=0.001..6.010 rows=162644 loops=361472)
+         Buffers: shared hit=748708030 read=2994
+ Planning Time: 272.048 ms
+ Execution Time: 4947363.683 ms
+(10 rows)
+
+
+                                                          QUERY PLAN                                                          
+------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..1037505.70 rows=100000 width=188) (actual time=117.276..1367634.762 rows=15270 loops=1)
+   Join Filter: (ak.person_id = n.id)
+   Rows Removed by Join Filter: 9999984730
+   Buffers: shared read=2604
+   ->  Seq Scan on aka_name_del ak  (cost=0.00..48.93 rows=100000 width=113) (actual time=8.452..111.767 rows=100000 loops=1)
+         Buffers: shared read=1267
+   ->  Materialize  (cost=0.00..57.64 rows=100000 width=75) (actual time=0.000..4.287 rows=100000 loops=100000)
+         Buffers: shared read=1337
+         ->  Seq Scan on name_del n  (cost=0.00..51.40 rows=100000 width=75) (actual time=6.667..59.128 rows=100000 loops=1)
+               Buffers: shared read=1337
+ Planning Time: 286.077 ms
+ Execution Time: 1367656.073 ms
+(12 rows)
+
+
+explain (analyse,buffers) select * from title_del t, movie_companies_del mc, movie_info_idx_del mi where t.id = mc.movie_id and t.id = mi.movie_id;
+                                                                    QUERY PLAN                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..166028.84 rows=12000 width=180) (actual time=148539.864..171830.200 rows=7812 loops=1)
+   Join Filter: (t.id = mc.movie_id)
+   Rows Removed by Join Filter: 159202188
+   Buffers: shared read=1106
+   ->  Seq Scan on movie_companies_del mc  (cost=0.00..10.36 rows=30000 width=38) (actual time=18.861..24.550 rows=30000 loops=1)
+         Buffers: shared read=258
+   ->  Materialize  (cost=0.00..103774.97 rows=20000 width=142) (actual time=0.003..5.186 rows=5307 loops=30000)
+         Buffers: shared read=848
+         ->  Nested Loop  (cost=0.00..103773.72 rows=20000 width=142) (actual time=90.242..148513.419 rows=5307 loops=1)
+               Join Filter: (t.id = mi.movie_id)
+               Rows Removed by Join Filter: 999994693
+               Buffers: shared read=848
+               ->  Seq Scan on title_del t  (cost=0.00..27.98 rows=50000 width=93) (actual time=25.639..42.859 rows=50000 loops=1)
+                     Buffers: shared read=733
+               ->  Materialize  (cost=0.00..6.14 rows=20000 width=49) (actual time=0.001..0.904 rows=20000 loops=50000)
+                     Buffers: shared read=115
+                     ->  Seq Scan on movie_info_idx_del mi  (cost=0.00..4.89 rows=20000 width=49) (actual time=24.690..30.544 rows=20000 loops=1)
+                           Buffers: shared read=115
+ Planning Time: 182.204 ms
+ Execution Time: 171831.126 ms
+(20 rows)
+
+explain (analyse,buffers) select * from title_del t, movie_companies_del mc, movie_info_idx_del mi where t.id = mc.movie_id and t.id = mi.movie_id;
+                                                                    QUERY PLAN                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ Nested Loop  (cost=0.00..247665.75 rows=23868 width=207) (actual time=365588.098..456970.188 rows=14343 loops=1)
+   Join Filter: (t.id = mc.movie_id)
+   Rows Removed by Join Filter: 636735657
+   Buffers: shared read=1470 dirtied=306
+   ->  Seq Scan on movie_companies_del mc  (cost=0.00..17.30 rows=50000 width=38) (actual time=18.886..34.647 rows=50000 loops=1)
+         Buffers: shared read=431
+   ->  Materialize  (cost=0.00..123845.60 rows=23868 width=169) (actual time=0.002..7.885 rows=12735 loops=50000)
+         Buffers: shared read=1039 dirtied=306
+         ->  Nested Loop  (cost=0.00..123844.11 rows=23868 width=169) (actual time=119.992..365545.802 rows=12735 loops=1)
+               Join Filter: (t.id = mi.movie_id)
+               Rows Removed by Join Filter: 2499987265
+               Buffers: shared read=1039 dirtied=306
+               ->  Seq Scan on title_del t  (cost=0.00..27.98 rows=50000 width=93) (actual time=23.834..54.004 rows=50000 loops=1)
+                     Buffers: shared read=733
+               ->  Materialize  (cost=0.00..13.29 rows=23868 width=76) (actual time=0.000..2.216 rows=50000 loops=50000)
+                     Buffers: shared read=306 dirtied=306
+                     ->  Seq Scan on movie_info_idx_del mi  (cost=0.00..11.80 rows=23868 width=76) (actual time=7.787..28.604 rows=50000 loops=1)
+                           Buffers: shared read=306 dirtied=306
+ Planning Time: 216.571 ms
+ Execution Time: 456991.762 ms
+(20 rows)
+

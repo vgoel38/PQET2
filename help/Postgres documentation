@@ -1,2 +1,5 @@
 1. Total cost of each operator = total time spent in an op and not the timestamp of when it ended.
 2. In each index leaf page, heap scan does not happen.
+3. Query re-writing doubts:
+	a. changing join order changes the plan
+	b. filter on join predicate on one table should implicitely mean filter on other table
